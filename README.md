@@ -10,7 +10,7 @@ There are two approaches to building the client.
 ## 1. Building a single jar
 Run the following command in a terminal/console.
 ```bash
-mvn package
+mvn clean install
 ```
 
-This compiles the client into a jar located at `./target/anprcloud-client-3.0-SNAPSHOT.jar`. Note that this jar does not include any dependencies.
+This compiles the client into your local maven repository.
