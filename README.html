@@ -1,12 +1,6 @@
 <h1>Building the client</h1>
 <p>Before proceeding, install a <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html">JDK</a> (must be Java 8 or later) and <a href="https://maven.apache.org/install.html">Apache Maven</a>.</p>
 <p>Ensure <code>JAVA_HOME</code> is set correctly and the <code>mvn</code> executable is available on your PATH.</p>
-<p>There are two approaches to building the client.</p>
-<ol>
-<li>You can compile just the client and publish to a repository that handles dependency management like MavenCentral.  (Recommended)</li>
-<li>You can build a &quot;fat jar&quot; that contains all required dependencies; this jar can be added to your customers' classpath.</li>
-</ol>
-<h2>1. Building a single jar</h2>
 <p>Run the following command in a terminal/console.</p>
 <pre><code class="language-bash">mvn clean install
 </code></pre>
